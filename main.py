@@ -12,7 +12,7 @@ root.geometry("600x600")
 canvas = tk.Canvas(root, width=600, height=600)
 canvas.pack()
 
-
+# pylint: disable=too-few-public-methods
 class Snake:
     """
     Eine Klasse, die die Schlange im Spiel repräsentiert.
